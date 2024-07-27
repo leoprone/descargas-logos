@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* @font-face {
+    font-family: 'Prueba_imagen_letra';
+    src: url("../assets/Prueba_imagen_letra-Regular.ttf");
+} */
+ body{
+    background-color: black;
+}  
+.logo-container{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(74, 74, 73);
+    margin: 100px auto;
+} 
+
+.logo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.messi-container{
+    position: relative;
+    margin: 150px auto;
+    width: 1600px;
+    height: 1600px;
+    display: flex;
+    justify-content: center;
+
+   /*   border: 1px #ffffff solid; */
+    overflow: hidden;
+background-color: rgba(30, 30, 30, 0);
+   /* background: linear-gradient(30deg, rgb(13, 13, 13) 0%, black 10%, black 14%, black 72%, rgb(45, 108, 152) 76%, rgb(45, 108, 152) 83%, white 85%, white 92%, rgb(45, 108, 152) 94%);  
+  background: linear-gradient(0deg, rgb(110, 114, 79) 0, rgb(110, 114, 79) 15%, red 18%, red 55%, rgb(180, 176, 176) 93%);
+     background-color: rgb(61, 60, 60);*/
+/* 
+  box-shadow: 0 0 2rem 1rem white, inset 0 0 2rem rgb(37, 35, 35); 
+    */ border-radius: 30px;
+    background-color: red;
+   z-index: 1;
+    /* filter: blur(0rem) contrast(1);*/
+}
+
+
+
+.canvas-name{
+  
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  z-index: 20;
+ width: 80px;
+height: 80px;
+
+}
+
